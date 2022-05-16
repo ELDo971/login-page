@@ -8,10 +8,10 @@
             <div align="center">
                 <h1 >Connectez-vous</h1>
                 <label>Username</label>
-                <input id="username" name="username" type="text" required>
+                <input id="username" name="username" type="text" required minlength="5" maxlength="15" pattern="[a-zA-Z0-9]+">
             <br><br>
                  <label>Password</label>
-                <input id="passwd" name="passwd" type="password"required>
+                <input id="passwd" name="passwd" type="password"required minlength="10" maxlength="20">
                 <br><br>
                 <input type="submit" value="Connection">
             </div>
